@@ -7,31 +7,5 @@
   font-family: "Inter", "Arial", "sans-serif";
   padding: 0;
   width: 100%;
-  /* background-color: tomato; */
   box-sizing: border-box;
-  
 }
-
-
-
-/* 
-@media screen and (max-width: 320px) {
-  .page {
-      background-color: blue;
-  }
-}
-@media screen and (min-width: 321px) and (max-width: 768px) {
-  .page {
-      background-color: rgb(94, 94, 66);
-  }
-}
-@media screen and (min-width: 769px) and (max-width: 1024px) {
-  .page {
-      background-color: rgb(23, 241, 49);
-  }
-}
-@media screen and (min-width: 1025px)  {
-  .page {
-      background-color: rgb(8, 198, 211);
-  }
-} */

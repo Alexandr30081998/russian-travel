@@ -1,14 +1,13 @@
 .lead__title {
-  display: flex;
-  font-weight: 900;
   margin: 0 16px 0 16px;
   font-size: 40px;
   line-height: 110%;
+  display: flex;
+  font-weight: 900;
   text-align: center;
   color: #FFFFFF;
   padding: 0;
   box-sizing: border-box;
-
 }
 
 @media screen and (min-width: 501px) {
@@ -23,20 +22,17 @@
   .lead__title {
     margin: 0 24px 0 24px;
     font-size: 96px;
-
-
   }
 }
 
 @media screen and (min-width: 1024px) {
   .lead__title {
     margin: 0 152px 0 152px;
-
   }
 }
+
 @media screen and (min-width: 1280px) {
   .lead__title {
     margin: 0 280px 0 280px;
-
   }
 }
