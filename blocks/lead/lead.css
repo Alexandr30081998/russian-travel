@@ -1,0 +1,13 @@
+.lead {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin: 48px 0 0 0;
+}
+
+@media screen and (min-width: 1025px) {
+  .lead {
+    margin: 56px 0 0 0;
+  }
+}
