@@ -1,0 +1,32 @@
+.lead__travel-map {
+  max-width: 100%;
+  object-fit: cover;
+  min-height: 200px;
+  margin: 40px auto 0 auto;
+  display: flex;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+@media screen and (min-width: 321px) {
+  .lead__travel-map {
+    max-height: 480px;
+    margin-top: 56px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .lead__travel-map {
+    max-width: 928px;
+    max-height: 580px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .lead__travel-map {
+    max-width: 984px;
+    max-height: 615px;
+    margin-top: 64px;
+  }
+}

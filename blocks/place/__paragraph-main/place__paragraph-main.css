@@ -1,0 +1,28 @@
+.place__paragraph-main {
+  display: flex;
+  flex-direction: column;
+  grid-row: 4/5;
+  margin: 0 16px;
+  padding: 0;
+}
+
+@media screen and (min-width: 501px) {
+  .place__paragraph-main {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    max-width: 352px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .place__paragraph-main {
+    max-width: 456px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .place__paragraph-main {
+    max-width: 484px;
+  }
+}
